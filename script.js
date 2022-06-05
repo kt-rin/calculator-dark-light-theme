@@ -22,10 +22,10 @@ buttons.forEach(item => {
             }, 2000);
         } else if (item.id === '/') {
             display.innerText += '÷'
-            sum += '/'
+            sum += item.id
         } else if (item.id === '*') {
             display.innerText += '×'
-            sum += '*'
+            sum += item.id
         } else {
             display.innerText += item.id
             sum += item.id
